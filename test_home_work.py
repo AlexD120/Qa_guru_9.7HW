@@ -62,5 +62,3 @@ def test_check_xlsx(zip_arch):
             expected_value, row_index, column_name = expected_data_excel
             actual_value = doc_file.at[row_index, column_name]
             assert actual_value == expected_value
-
-
